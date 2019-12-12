@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+
+	<test name="order">
+		<classes>
+			<class name="bluAndroid.bluAndroid.TestScripts.A" />
+			<class name="bluAndroid.bluAndroid.TestScripts.B" />
+		</classes>
+	</test>
+
+	
+
+</suite>

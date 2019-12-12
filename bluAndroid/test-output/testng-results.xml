@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="14" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="519465" started-at="2019-12-11T11:19:24 SGT" finished-at="2019-12-11T11:28:04 SGT">
+    <groups>
+    </groups>
+    <test name="order" duration-ms="519465" started-at="2019-12-11T11:19:24 SGT" finished-at="2019-12-11T11:28:04 SGT">
+      <class name="bluAndroid.bluAndroid.TestScripts.BluSignUpTestRunner">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluSignUpTestRunner@42d8062c]" name="preCondition" is-config="true" duration-ms="28175" started-at="2019-12-11T11:26:54 SGT" finished-at="2019-12-11T11:27:22 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc01_signup()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluSignUpTestRunner@42d8062c]" name="tc01_signup" duration-ms="39789" started-at="2019-12-11T11:27:22 SGT" finished-at="2019-12-11T11:28:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_signup -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluSignUpTestRunner@42d8062c]" name="getResult" is-config="true" duration-ms="2114" started-at="2019-12-11T11:28:02 SGT" finished-at="2019-12-11T11:28:04 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_signup status=SUCCESS method=BluSignUpTestRunner.tc01_signup()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluSignUpTestRunner@42d8062c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- bluAndroid.bluAndroid.TestScripts.BluSignUpTestRunner -->
+      <class name="bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="SetUp" is-config="true" duration-ms="167" started-at="2019-12-11T11:19:24 SGT" finished-at="2019-12-11T11:19:24 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="26364" started-at="2019-12-11T11:19:25 SGT" finished-at="2019-12-11T11:19:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc01_validMobileValidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc01_validMobileValidPassword" duration-ms="17317" started-at="2019-12-11T11:19:51 SGT" finished-at="2019-12-11T11:20:08 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_validMobileValidPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2476" started-at="2019-12-11T11:20:08 SGT" finished-at="2019-12-11T11:20:11 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_validMobileValidPassword status=SUCCESS method=BluLoginTestRunner.tc01_validMobileValidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="28672" started-at="2019-12-11T11:20:11 SGT" finished-at="2019-12-11T11:20:39 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc02_invalidEmailValidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc02_invalidEmailValidPassword" duration-ms="15549" started-at="2019-12-11T11:20:39 SGT" finished-at="2019-12-11T11:20:55 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_invalidEmailValidPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2364" started-at="2019-12-11T11:20:55 SGT" finished-at="2019-12-11T11:20:57 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_invalidEmailValidPassword status=SUCCESS method=BluLoginTestRunner.tc02_invalidEmailValidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="29166" started-at="2019-12-11T11:20:57 SGT" finished-at="2019-12-11T11:21:26 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc03_invalidMobileNumberValidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc03_invalidMobileNumberValidPassword" duration-ms="15889" started-at="2019-12-11T11:21:26 SGT" finished-at="2019-12-11T11:21:42 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_invalidMobileNumberValidPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2163" started-at="2019-12-11T11:21:42 SGT" finished-at="2019-12-11T11:21:44 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_invalidMobileNumberValidPassword status=SUCCESS method=BluLoginTestRunner.tc03_invalidMobileNumberValidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="28016" started-at="2019-12-11T11:21:44 SGT" finished-at="2019-12-11T11:22:12 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc04_withoutCredentials()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc04_withoutCredentials" duration-ms="3422" started-at="2019-12-11T11:22:12 SGT" finished-at="2019-12-11T11:22:16 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_withoutCredentials -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2075" started-at="2019-12-11T11:22:16 SGT" finished-at="2019-12-11T11:22:18 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_withoutCredentials status=SUCCESS method=BluLoginTestRunner.tc04_withoutCredentials()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="27896" started-at="2019-12-11T11:22:18 SGT" finished-at="2019-12-11T11:22:46 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc06_notRegisteredMobileNumber()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc06_notRegisteredMobileNumber" duration-ms="15669" started-at="2019-12-11T11:22:46 SGT" finished-at="2019-12-11T11:23:02 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_notRegisteredMobileNumber -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2120" started-at="2019-12-11T11:23:02 SGT" finished-at="2019-12-11T11:23:04 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_notRegisteredMobileNumber status=SUCCESS method=BluLoginTestRunner.tc06_notRegisteredMobileNumber()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="28101" started-at="2019-12-11T11:23:04 SGT" finished-at="2019-12-11T11:23:32 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc07_notRegisteredEmail()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc07_notRegisteredEmail" duration-ms="16040" started-at="2019-12-11T11:23:32 SGT" finished-at="2019-12-11T11:23:48 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_notRegisteredEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2084" started-at="2019-12-11T11:23:48 SGT" finished-at="2019-12-11T11:23:50 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_notRegisteredEmail status=SUCCESS method=BluLoginTestRunner.tc07_notRegisteredEmail()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="28276" started-at="2019-12-11T11:23:50 SGT" finished-at="2019-12-11T11:24:18 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc08_validEmailPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc08_validEmailPassword" duration-ms="17069" started-at="2019-12-11T11:24:18 SGT" finished-at="2019-12-11T11:24:35 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_validEmailPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2387" started-at="2019-12-11T11:24:35 SGT" finished-at="2019-12-11T11:24:38 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_validEmailPassword status=SUCCESS method=BluLoginTestRunner.tc08_validEmailPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="27529" started-at="2019-12-11T11:24:38 SGT" finished-at="2019-12-11T11:25:05 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc09_validEmailInvalidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc09_validEmailInvalidPassword" duration-ms="15927" started-at="2019-12-11T11:25:05 SGT" finished-at="2019-12-11T11:25:21 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_validEmailInvalidPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2145" started-at="2019-12-11T11:25:21 SGT" finished-at="2019-12-11T11:25:23 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc09_validEmailInvalidPassword status=SUCCESS method=BluLoginTestRunner.tc09_validEmailInvalidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="27653" started-at="2019-12-11T11:25:23 SGT" finished-at="2019-12-11T11:25:51 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc10_validMobileNumberInvalidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc10_validMobileNumberInvalidPassword" duration-ms="15601" started-at="2019-12-11T11:25:51 SGT" finished-at="2019-12-11T11:26:06 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_validMobileNumberInvalidPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2173" started-at="2019-12-11T11:26:07 SGT" finished-at="2019-12-11T11:26:09 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc10_validMobileNumberInvalidPassword status=SUCCESS method=BluLoginTestRunner.tc10_validMobileNumberInvalidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="preCondition" is-config="true" duration-ms="27369" started-at="2019-12-11T11:26:09 SGT" finished-at="2019-12-11T11:26:36 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="tc11_invalidMobileNumberInvalidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tc11_invalidMobileNumberInvalidPassword" duration-ms="15797" started-at="2019-12-11T11:26:36 SGT" finished-at="2019-12-11T11:26:52 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_invalidMobileNumberInvalidPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="getResult" is-config="true" duration-ms="2024" started-at="2019-12-11T11:26:52 SGT" finished-at="2019-12-11T11:26:54 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc11_invalidMobileNumberInvalidPassword status=SUCCESS method=BluLoginTestRunner.tc11_invalidMobileNumberInvalidPassword()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner@45820e51]" name="tearDown" is-config="true" duration-ms="478" started-at="2019-12-11T11:28:04 SGT" finished-at="2019-12-11T11:28:04 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bluAndroid.bluAndroid.TestScripts.BluLoginTestRunner -->
+    </test> <!-- order -->
+  </suite> <!-- TestAll -->
+</testng-results>
